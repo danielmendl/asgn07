@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Haiku Assembly</title>
+    <link href="sample.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+      <h1>Assemble a Haiku</h1>
+  
+      <form action="haiku-generator.php" method="post">
+        <label for="line1">Line 1</label>
+        <select name="line1" id="line1" required>Line 1
+          <option disabled selected>-- Select an Option --</option>
+          <option>Like the morning breeze</option>
+          <option>Trevor is my cat</option>
+          <option>It is pumpkin time</option>
+        </select>
+        
+        <label for="line2">Line 2</label>
+        <select name="line2" id="line2" required>
+          <option disabled selected>-- Select an Option --</option>
+          <option>A pebble stiffens slightly</option>
+          <option>Hedgehogs are a decent pet</option>
+          <option>Don't be so rough on yourself</option>
+        </select>
+    
+        <label for="line3">Line 3</label>
+        <select name="line3" id="line3" required>
+          <option disabled selected>-- Select an Option --</option>
+          <option>Sewn thread made of light</option>
+          <option>Believe in yourself</option>
+          <option>Hydrate or die-drate</option>
+        </select>
+        
+        <div>
+          <button type="submit" value="assemble" name="assemble">Assemble Haiku</button>
+          <p>or</p>
+          <button type="submit" value="random" name="assemble">Randomize</button>
+        </div>
+  
+  
+      </form>
+
+    </div>
+
+
+    
+
+  </body>
+
+</html>
